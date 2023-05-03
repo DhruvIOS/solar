@@ -112,7 +112,7 @@ function App() {
         <div class="container2">
           <img className="BG5" src="images/BG5.jpg"  />
 
-            <img className="heroIMG"src="images/solar2.png" />
+            <img className="heroIMG" src="images/solar2.png" />
           <div class="centered">
 
               <h1 className="SOLAR">SOLAR </h1>
