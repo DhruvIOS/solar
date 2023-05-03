@@ -4,13 +4,10 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 function App() {
-
-
-
-  const hamBurgerElement = useRef(null)
-  const navMenuElement = useRef(null)
-  const navLinkElement = useRef(null)
-  const mainContentElement = useRef(null)
+  const hamBurgerElement = useRef(null);
+  const navMenuElement = useRef(null);
+  const navLinkElement = useRef(null);
+  const mainContentElement = useRef(null);
 
   function closeMenu() {
     // hamburger.classList.remove("active");
@@ -18,19 +15,18 @@ function App() {
     // mainContent.classList.remove("active");
 
     hamBurgerElement.current.classList.remove("active");
-    navMenuElement.current.classList.remove('active')
+    navMenuElement.current.classList.remove("active");
     // navLinkElement.current.classList.toggle('active')
 
-    mainContentElement.current.classList.remove('active')
+    mainContentElement.current.classList.remove("active");
   }
 
   function mobileMenu() {
-    
     hamBurgerElement.current.classList.toggle("active");
-    navMenuElement.current.classList.toggle('active')
-    navLinkElement.current.classList.toggle('active')
+    navMenuElement.current.classList.toggle("active");
+    navLinkElement.current.classList.toggle("active");
 
-    mainContentElement.current.classList.toggle('active')
+    mainContentElement.current.classList.toggle("active");
   }
   const form = useRef();
 
@@ -56,7 +52,7 @@ function App() {
       );
   };
   return (
-    <div>
+    <div className="body">
       <header className="header">
         <nav className="navbar">
           <a href="#" className="nav-logo">
@@ -71,38 +67,61 @@ function App() {
           <ul className="nav-menu" ref={navMenuElement}>
             <li className="nav-item">
               <a href="#" className="nav-link" ref={navLinkElement}>
-                Home
+                HOME
               </a>
             </li>
-            <li className="nav-item" >
+            <li className="nav-item">
               <a href="#ourService" className="nav-link" ref={navLinkElement}>
-                Our Service
+                OUR SERVICES
               </a>
             </li>
-            <li className="nav-item" >
+            <li className="nav-item">
               <a href="#" className="nav-link" ref={navLinkElement}>
-                About
+                ABOUT
               </a>
             </li>
-            <li className="nav-item" >
+            <li className="nav-item">
               <a href="#contactUS" className="nav-link">
-                Contact
+                CONTACT
               </a>
             </li>
           </ul>
-          <div className="hamburger" ref={hamBurgerElement} onClick={mobileMenu}>
+          <div
+            className="hamburger"
+            ref={hamBurgerElement}
+            onClick={mobileMenu}
+          >
             <span className="bar"></span>
             <span className="bar"></span>
             <span className="bar"></span>
           </div>
         </nav>
+
+
       </header>
 
       <div className="mainContent" ref={mainContentElement}>
-        <div className="LandingContent">
+        {/* <div className="LandingContent">
           <img src="images/Phone2.png" />
           <h1>Solar Marketing Agency</h1>
           <p>Targeted Marketing, Maximizing results.</p>
+
+
+        </div> */}
+
+        <div class="container2">
+          <img className="BG5" src="images/Bg5.jpg" alt="Snow" />
+
+            <img className="heroIMG"src="images/solar2.png" />
+          <div class="centered">
+
+              <h1 className="SOLAR">SOLAR </h1>
+              <h3 className="TagLine">TARGETED MARKETING, MAXIMIZING RESULT</h3>
+              {/* <button class="button button1" >GET QUOTE</button> */}
+              <a href="#contactUS"><button className="button1"> GET QUOTE</button></a>
+          </div>
+              <img className="phone" src="images/Phone2.png" />
+
         </div>
 
         <section>
@@ -116,10 +135,10 @@ function App() {
                 <div className="icon-wrapper">
                   <i className="fa-brands fa-facebook-f"></i>
                 </div>
-                <h3>Facebook</h3>
+                <h3>BRANDING & WEBSITE</h3>
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Quisquam consequatur necessitatibus eaque.
+                We will work with you to create a cohesive brand identity that reflects your company's values and mission. This includes designing a logo, choosing typography and color schemes, and setting up your social media profiles. Additionally, we will create a website for your company and ensure that it's optimized for search engines.
+
                 </p>
                 <a href="#" className="btn btn-primary getQuote">
                   <p>GET QUOTE</p>
@@ -130,13 +149,12 @@ function App() {
             <div className="column">
               <div className="card">
                 <div className="icon-wrapper">
-                  <i className="fa-sharp fa-light fa-typewriter"></i>
+                  {/* <i className="fa-sharp fa-light fa-typewriter"></i> */}
                   <i className="fa-solid fa-pen-fancy"></i>
                 </div>
-                <h3>Copywriting</h3>
+                <h3>Content Strategy</h3>
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Quisquam consequatur necessitatibus eaque.
+                Our team will develop a comprehensive content strategy that aligns with your brand and resonates with your target audience. This will include creating a content calendar, producing high-quality content, and optimizing it for search engines. We will also work on improving your website's SEO to increase your online visibility and drive traffic to your site.
                 </p>
                 <a href="#" className="btn btn-primary getQuote">
                   <p>GET QUOTE</p>
@@ -148,10 +166,9 @@ function App() {
                 <div className="icon-wrapper">
                   <i className="fa-solid fa-camera"></i>
                 </div>
-                <h3>Content Creation</h3>
+                <h3>AD CAMPAIGNS</h3>
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Quisquam consequatur necessitatibus eaque.
+                We will create and manage effective ad campaigns on Facebook and Google that target your desired audience and drive traffic to your website. We will regularly monitor and optimize the campaigns to ensure maximum return on investment.
                 </p>
                 <a href="#" className="btn btn-primary getQuote">
                   <p>GET QUOTE</p>
@@ -206,7 +223,6 @@ function App() {
                 />
               </div>
 
-              
               <div class="form-group">
                 <label for="email">Email address*</label>
                 <input
@@ -235,41 +251,37 @@ function App() {
         </section>
       </div>
 
-      <footer>
-  <div className="footer-content">
-    <h3>Solar Marketing</h3>
-    <p>Solar Marketing is a place where we do marketing</p>
-    <div className="socials">
-      <a href="#"><i className='fa-brands fa-facebook'></i></a>
-      <a href="#"><i className='fa-brands fa-instagram'></i></a>
-      <a href="#"><i className='fa-brands fa-twitter'></i></a>
-    </div>
-  </div>
+      <section class="footer">
+        <div class="social">
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
 
-  <nav className="navbar footer-Nav">
-    <ul className="nav-menu">
-      <li className="nav-item"><a href="#" className="nav-link">Home</a></li>
-      <li className="nav-item">
-        <a href="#" className="nav-link">Our Service</a>
-      </li>
-      <li className="nav-item">
-        <a href="#" className="nav-link">About</a>
-      </li>
-      <li className="nav-item">
-        <a href="#" className="nav-link">Contact</a>
-      </li>
-    </ul>
-  </nav>
-
-  <p className="copyRight">© Copyrighted Solar Marketing Agency
-  </p>
-</footer>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+        <ul class="list">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Our Service</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+        <p class="copyright">Solar Marketing @ 2022</p>
+      </section>
     </div>
   );
-
-
-
-
 }
 
 export default App;
