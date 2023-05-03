@@ -874,4 +874,8 @@ input[type="submit"]:hover {
     position: relative;
     left: 20%;
   }
+
+  .phone{
+    display: none;
+  }
 }
