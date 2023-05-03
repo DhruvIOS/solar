@@ -663,6 +663,11 @@ background-size: cover;
     -webkit-transform: translateY(-8px) rotate(-45deg);
     transform: translateY(-8px) rotate(-45deg);
   }
+
+  
+  .phone{
+    display: none;
+  }
 }
 
 
@@ -846,6 +851,10 @@ input[type="submit"]:hover {
     right: 100%;
    
   } */
+
+  .phone{
+    display: none;
+  }
 }
 @media screen and (min-width: 992px) {
   section {
@@ -860,6 +869,11 @@ input[type="submit"]:hover {
   .section-heading {
     position: relative;
     left: 40%;
+  }
+
+
+  .phone{
+    display: none;
   }
 }
 
