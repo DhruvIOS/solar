@@ -113,6 +113,8 @@ function App() {
           <img className="BG5" src="images/BG5.jpg"  />
 
             <img className="heroIMG" src="images/Solar2.png" />
+            <img className="heroIMG mobile" src="images/Solar.png" />
+
           <div class="centered">
 
               <h1 className="SOLAR">SOLAR </h1>
@@ -121,13 +123,14 @@ function App() {
               <a href="#contactUS"><button className="button1"> GET QUOTE</button></a>
           </div>
               <img className="phone" src="images/Phone2.png" />
+              
 
         </div>
 
         <section>
           <div className="row"></div>
           <h2 className="section-heading" id="ourService">
-            OUR <span>SERVICE</span>
+            OUR <span>SERVICES</span>
           </h2>
           <div className="row">
             <div className="column">
