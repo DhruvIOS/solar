@@ -870,9 +870,7 @@ input[type="submit"]:hover {
   }
 
 
-  .phone{
-    display: none;
-  }
+
 }
 
 @media (min-width: 420px) {
