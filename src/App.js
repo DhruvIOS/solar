@@ -110,9 +110,9 @@ function App() {
         </div> */}
 
         <div class="container2">
-          <img className="BG5" src="images/Bg5.jpg" alt="Snow" />
+          <img className="BG5" src="../images/BG5.jpg" alt="Snow" />
 
-            <img className="heroIMG"src="images/solar2.png" />
+            <img className="heroIMG"src="../images/solar2.png" />
           <div class="centered">
 
               <h1 className="SOLAR">SOLAR </h1>
