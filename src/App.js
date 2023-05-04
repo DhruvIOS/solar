@@ -281,7 +281,7 @@ function App() {
             <a href="#">Contact</a>
           </li>
         </ul>
-        <p class="copyright">Solar Marketing @ 2022</p>
+        <p class="copyright">© Copyrighted Solar Marketing Agency </p>
       </section>
     </div>
   );
