@@ -246,6 +246,10 @@ a {
   top: -15px;
 }
 
+.footer.active{
+  display: none;
+}
+
 
 .mobile{
   display: none;
@@ -885,6 +889,9 @@ input[type="submit"]:hover {
   .phone{
     display: none;
   }
+
+
+
 
 
   .section-heading span {

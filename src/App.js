@@ -8,6 +8,7 @@ function App() {
   const navMenuElement = useRef(null);
   const navLinkElement = useRef(null);
   const mainContentElement = useRef(null);
+  const footer = useRef(null)
 
   function closeMenu() {
     // hamburger.classList.remove("active");
@@ -19,6 +20,7 @@ function App() {
     // navLinkElement.current.classList.toggle('active')
 
     mainContentElement.current.classList.remove("active");
+    footer.current.classList.remove("active")
   }
 
   function mobileMenu() {
@@ -27,6 +29,8 @@ function App() {
     navLinkElement.current.classList.toggle("active");
 
     mainContentElement.current.classList.toggle("active");
+    footer.current.classList.toggle("active")
+
   }
   const form = useRef();
 
@@ -254,7 +258,7 @@ function App() {
         </section>
       </div>
 
-      <section class="footer">
+      <section class="footer" ref={footer}>
         <div class="social">
           <a href="#">
             <i class="fab fa-instagram"></i>
