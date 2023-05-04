@@ -247,6 +247,10 @@ a {
 }
 
 
+.mobile{
+  display: none;
+}
+
 .heroIMG{
   width: 200px;
   height: 110px;
@@ -331,6 +335,10 @@ a {
 
 
 
+}
+
+.centered button:hover{
+  background-color: rgb(204, 200, 200) ;
 }
 
 .phone{
@@ -623,11 +631,13 @@ background-size: cover;
     flex-direction: column;
     background-color: #f14400;
     width: 100%;
+
     /* border-radius: 10px; */
     text-align: center;
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
   }
+
 
   .nav-menu.active {
     left: 0;
@@ -869,6 +879,67 @@ input[type="submit"]:hover {
 
 
 
+}
+
+@media screen and (max-width: 420px) {
+  .phone{
+    display: none;
+  }
+
+
+  .section-heading span {
+    position: absolute;
+    left: -56px;
+
+  }
+/* 
+  .section-heading{
+    position: relative;
+    left: 5px;
+  } */
+
+  .centered h1{
+    font-size: 5rem;
+    position: relative;
+    left: 85%;
+    top: -28px;
+    color:rgb(20, 19, 19)
+  }
+
+
+  .heroIMG{
+    display: none;
+  }
+
+  .centered button{
+    position: absolute;
+    left: 70%;
+    top: 110%;
+  }
+
+  .button1{
+    width: 200px;
+    height: 70px;
+  }
+
+  .mobile{
+    display: block;
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left: 15%;
+    top: 29%;
+  }
+
+  .centered h3{
+
+    position: relative;
+    left: 50%;
+    font-size: 1.7em;
+
+  }
+
+  
 }
 
 @media (min-width: 420px) {
