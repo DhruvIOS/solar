@@ -258,8 +258,8 @@ function App() {
         </section>
       </div>
 
-      <section class="footer" ref={footer}>
-        <div class="social">
+      <section class="footer" ref={footer} >
+        <div class="social" >
           <a href="#">
             <i class="fab fa-instagram"></i>
           </a>

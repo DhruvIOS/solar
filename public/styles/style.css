@@ -246,9 +246,6 @@ a {
   top: -15px;
 }
 
-.footer.active{
-  display: none;
-}
 
 
 .mobile{
@@ -885,10 +882,15 @@ input[type="submit"]:hover {
 
 }
 
-@media (max-width: 480px) and (min-width: 320px) {
+@media (max-width: 640px) and (min-width: 360px) {
   .phone{
     display: none;
   }
+
+  .footer.active{
+    display: none;
+  }
+  
 
 
 
