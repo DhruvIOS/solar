@@ -882,7 +882,7 @@ input[type="submit"]:hover {
 
 }
 
-@media (max-width: 640px) and (min-width: 360px) {
+@media screen and (max-width: 640px) and (min-width: 360px) {
   .phone{
     display: none;
   }
