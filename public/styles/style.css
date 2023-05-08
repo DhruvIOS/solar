@@ -687,7 +687,7 @@ background-size: cover;
   }
 }
 
-@media (max-width: 430px) {
+@media screen and (min-width: 430px) {
   html,
   body {
     max-width: 100%;
@@ -716,9 +716,7 @@ background-size: cover;
     padding: 53px;
   }
 
-  .zoomed {
-    zoom: 0%;
-  }
+
 }
 
 .bg {
@@ -881,6 +879,9 @@ input[type="submit"]:hover {
 
 
 }
+
+
+
 
 @media screen and (max-width: 640px) and (min-width: 360px) {
   .phone{
