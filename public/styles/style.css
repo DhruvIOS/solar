@@ -949,18 +949,13 @@ input[type="submit"]:hover {
 
   }
 
-  .BG5{
-    height: 50%;
-  }
 
   
 }
 
 @media screen and (min-width: 375px)  {
 
-  .BG5{
-    height: 50%;
-  }
+
 
   section {
     padding: 1em 3em;
