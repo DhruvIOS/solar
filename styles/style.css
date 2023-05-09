@@ -952,7 +952,7 @@ input[type="submit"]:hover {
   
 }
 
-@media screen and (min-width: 375px) and (min-height: 812px) {
+@media screen and (min-width: 375px)  {
   section {
     padding: 1em 3em;
 
@@ -974,12 +974,12 @@ input[type="submit"]:hover {
 
   .section-contact{
     position: absolute;
-    top: 200%
+    top: 320%
   }
 
   .footer{
     position: absolute;
-    top: 320%
+    top: 520%
 
   }
 
