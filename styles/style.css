@@ -952,7 +952,7 @@ input[type="submit"]:hover {
   
 }
 
-@media (max-width: 375px) {
+@media screen and (min-width: 375px) and (min-height: 812px) {
   section {
     padding: 1em 3em;
 
