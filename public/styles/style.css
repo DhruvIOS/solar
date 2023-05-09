@@ -863,7 +863,7 @@ input[type="submit"]:hover {
 }
 @media screen and (min-width: 992px) {
   section {
-    padding: 1em 2rem;
+    padding: 1em 3em;
     position: relative;
     top: 200px;
   }
@@ -883,7 +883,7 @@ input[type="submit"]:hover {
 
 
 
-@media screen and (max-width: 640px) and (min-width: 375px) {
+@media screen and (max-width: 640px) and (min-width: 360px) {
   .phone{
     display: none;
   }
@@ -952,7 +952,7 @@ input[type="submit"]:hover {
   
 }
 
-@media screen and (max-width: 375px)  {
+@media screen and (min-width: 375px)  {
   section {
     padding: 1em 3em;
 
