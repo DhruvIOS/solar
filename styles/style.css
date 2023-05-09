@@ -687,7 +687,7 @@ background-size: cover;
   }
 }
 
-@media screen and (min-width: 430px) {
+/* @media screen and (min-width: 430px) {
   html,
   body {
     max-width: 100%;
@@ -717,7 +717,7 @@ background-size: cover;
   }
 
 
-}
+} */
 
 .bg {
   margin: auto;
@@ -952,7 +952,7 @@ input[type="submit"]:hover {
   
 }
 
-@media (min-width: 420px) {
+@media (min-width: 430px) {
   section {
     padding: 1em 3em;
 
@@ -961,7 +961,50 @@ input[type="submit"]:hover {
   }
   .section-heading {
     position: relative;
-    left: 20%;
+    left: 30%;
+    padding-bottom: 50px;
   }
+
+  .centered h1{
+
+    position: absolute;
+    top: -144px;
+    /* left: 131px; */
+  }
+
+  .section-contact{
+    position: absolute;
+    top: 200%
+  }
+
+  .footer{
+    position: absolute;
+    top: 320%
+
+  }
+
+  .mobile {
+    display: block;
+    width: 134px;
+    height: auto;
+    position: absolute;
+    left: 7%;
+    top: 22%;
+
+}
+
+  .centered h3{
+    position: relative;
+    top: -72px;
+    left: 177px;
+
+  }
+
+  .centered button{
+    position: absolute;
+    top: 0;
+    left: 70%;
+  }
+
 
 }
