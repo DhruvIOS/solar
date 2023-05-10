@@ -2,13 +2,14 @@
 import "./App.css";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { InlineWidget } from "react-calendly";
 
 function App() {
   const hamBurgerElement = useRef(null);
   const navMenuElement = useRef(null);
   const navLinkElement = useRef(null);
   const mainContentElement = useRef(null);
-  const footer = useRef(null)
+  const footer = useRef(null);
 
   function closeMenu() {
     // hamburger.classList.remove("active");
@@ -20,7 +21,7 @@ function App() {
     // navLinkElement.current.classList.toggle('active')
 
     mainContentElement.current.classList.remove("active");
-    footer.current.classList.remove("active")
+    footer.current.classList.remove("active");
   }
 
   function mobileMenu() {
@@ -29,8 +30,7 @@ function App() {
     navLinkElement.current.classList.toggle("active");
 
     mainContentElement.current.classList.toggle("active");
-    footer.current.classList.toggle("active")
-
+    footer.current.classList.toggle("active");
   }
   const form = useRef();
 
@@ -100,8 +100,6 @@ function App() {
             <span className="bar"></span>
           </div>
         </nav>
-
-
       </header>
 
       <div className="mainContent" ref={mainContentElement}>
@@ -114,21 +112,20 @@ function App() {
         </div> */}
 
         <div class="container2">
-          <img className="BG5" src="images/BG5.jpg"  />
+          <img className="BG5" src="images/BG5.jpg" />
 
-            <img className="heroIMG" src="images/Solar2.png" />
-            <img className="heroIMG mobile" src="images/Solar.png" />
+          <img className="heroIMG" src="images/Solar2.png" />
+          <img className="heroIMG mobile" src="images/Solar.png" />
 
           <div class="centered">
-
-              <h1 className="SOLAR">SOLAR </h1>
-              <h3 className="TagLine">TARGETED MARKETING, MAXIMIZING RESULT</h3>
-              {/* <button class="button button1" >GET QUOTE</button> */}
-              <a href="#contactUS"><button className="button1"> GET QUOTE</button></a>
+            <h1 className="SOLAR">SOLAR </h1>
+            <h3 className="TagLine">TARGETED MARKETING, MAXIMIZING RESULT</h3>
+            {/* <button class="button button1" >GET QUOTE</button> */}
+            <a href="#contactUS">
+              <button className="button1"> GET QUOTE</button>
+            </a>
           </div>
-              <img className="phone" src="images/Phone2.png" />
-              
-
+          <img className="phone" src="images/Phone2.png" />
         </div>
 
         <section>
@@ -144,8 +141,12 @@ function App() {
                 </div>
                 <h3>BRANDING & WEBSITE</h3>
                 <p>
-                We will work with you to create a cohesive brand identity that reflects your company's values and mission. This includes designing a logo, choosing typography and color schemes, and setting up your social media profiles. Additionally, we will create a website for your company and ensure that it's optimized for search engines.
-
+                  We will work with you to create a cohesive brand identity that
+                  reflects your company's values and mission. This includes
+                  designing a logo, choosing typography and color schemes, and
+                  setting up your social media profiles. Additionally, we will
+                  create a website for your company and ensure that it's
+                  optimized for search engines.
                 </p>
                 <a href="#" className="btn btn-primary getQuote">
                   <p>GET QUOTE</p>
@@ -161,7 +162,13 @@ function App() {
                 </div>
                 <h3>Content Strategy</h3>
                 <p>
-                Our team will develop a comprehensive content strategy that aligns with your brand and resonates with your target audience. This will include creating a content calendar, producing high-quality content, and optimizing it for search engines. We will also work on improving your website's SEO to increase your online visibility and drive traffic to your site.
+                  Our team will develop a comprehensive content strategy that
+                  aligns with your brand and resonates with your target
+                  audience. This will include creating a content calendar,
+                  producing high-quality content, and optimizing it for search
+                  engines. We will also work on improving your website's SEO to
+                  increase your online visibility and drive traffic to your
+                  site.
                 </p>
                 <a href="#" className="btn btn-primary getQuote">
                   <p>GET QUOTE</p>
@@ -175,7 +182,10 @@ function App() {
                 </div>
                 <h3>AD CAMPAIGNS</h3>
                 <p>
-                We will create and manage effective ad campaigns on Facebook and Google that target your desired audience and drive traffic to your website. We will regularly monitor and optimize the campaigns to ensure maximum return on investment.
+                  We will create and manage effective ad campaigns on Facebook
+                  and Google that target your desired audience and drive traffic
+                  to your website. We will regularly monitor and optimize the
+                  campaigns to ensure maximum return on investment.
                 </p>
                 <a href="#" className="btn btn-primary getQuote">
                   <p>GET QUOTE</p>
@@ -258,8 +268,8 @@ function App() {
         </section>
       </div>
 
-      <section class="footer" ref={footer} >
-        <div class="social" >
+      <section class="footer" ref={footer}>
+        <div class="social">
           <a href="#">
             <i class="fab fa-instagram"></i>
           </a>
@@ -287,6 +297,13 @@ function App() {
         </ul>
         <p class="copyright">© Copyrighted Solar Marketing Agency </p>
       </section>
+
+        <InlineWidget url="https://calendly.com/solarmktg/newjourney?back=1&month=2023-05" />
+      <script
+        type="text/javascript"
+        src="https://assets.calendly.com/assets/external/widget.js"
+        async
+      ></script>
     </div>
   );
 }
