@@ -268,6 +268,8 @@ function App() {
         </section>
       </div>
 
+      <InlineWidget url="https://calendly.com/solarmktg/newjourney?back=1&month=2023-05" />
+
       <section class="footer" ref={footer}>
         <div class="social">
           <a href="#">
@@ -298,7 +300,7 @@ function App() {
         <p class="copyright">© Copyrighted Solar Marketing Agency </p>
       </section>
 
-        <InlineWidget url="https://calendly.com/solarmktg/newjourney?back=1&month=2023-05" />
+
       <script
         type="text/javascript"
         src="https://assets.calendly.com/assets/external/widget.js"
