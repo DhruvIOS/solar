@@ -883,19 +883,57 @@ input[type="submit"]:hover {
 
 
 
+@media screen and (max-width: 640px) and (min-width: 375px) {
+  .phone{
+    display: none;
+  }
+
+  .footer.active{
+    display: none;
+  }
+  
 
 
 
-@media screen and (max-width: 375px)  {
+
+
+  .section-heading span {
+    position: absolute;
+    left: -56px;
+
+  }
+/* 
+  .section-heading{
+    position: relative;
+    left: 5px;
+  } */
+
+
 
 
   .heroIMG{
     display: none;
   }
 
-  .phone{
-    display: none;
+
+  .mobile{
+    display: block;
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left: 15%;
+    top: 29%;
   }
+
+
+
+
+  
+}
+
+@media screen and (min-width: 375px)  {
+
+
 
   section {
     padding: 1em 3em;
