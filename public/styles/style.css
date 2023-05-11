@@ -294,7 +294,7 @@ width: 120px;
   background-color: #1c1c1c;
 
 
-  margin-top: -250px;
+  margin-top: 932px;
   height: auto;
 }
 .footer .social {
@@ -646,7 +646,7 @@ a {
     #292329 50%,
     #161616
   );
-  margin-top: -642px;
+  margin-top: 642px;
 }
 .section-contact .container {
 
@@ -1005,8 +1005,7 @@ input[type="submit"]:hover {
 
 
 
-
-@media screen and (min-width: 375px) {
+ @media (min-width: 375px) and (max-width: 675px) {
 
 
 .UNKNOW{
@@ -1066,12 +1065,12 @@ input[type="submit"]:hover {
 
   .section-contact {
     position: absolute;
-    top: 530%;
+    top: 330%;
   }
 
   .footer {
     position: absolute;
-    top: 720%;
+    top: 550%;
   }
 
 
@@ -1088,4 +1087,4 @@ input[type="submit"]:hover {
     top: 110%;
     left: 66%;
   }
-}
+} 
