@@ -103,98 +103,71 @@ function App() {
       </header>
 
       <div className="mainContent" ref={mainContentElement}>
-        {/* <div className="LandingContent">
-          <img src="images/Phone2.png" />
-          <h1>Solar Marketing Agency</h1>
-          <p>Targeted Marketing, Maximizing results.</p>
 
 
-        </div> */}
+        <div className="heading">
+          <img src="images/Solar2.png" />
+          <h3>SOLAR MARKETING</h3>
+          <h1>Take your business from <span className="UNKNOW">Unknown</span> <br />to <span className="UNFOR">Unforgettable</span> in 3 simple steps</h1>
+          <p>At Solar Marketing, we help businesses succeed in the digital world <br /> with our proven 3-step process.  Our team of experts works closely with you <br />to create a tailored strategy that meets your unique needs and goals. </p>
 
-        <div class="container2">
-          <img className="BG5" src="images/BG5.jpg" />
-
-          <img className="heroIMG" src="images/Solar2.png" />
-          <img className="heroIMG mobile" src="images/Solar.png" />
-
-          <div class="centered">
-            <h1 className="SOLAR">SOLAR </h1>
-            <h3 className="TagLine">TARGETED MARKETING, MAXIMIZING RESULT</h3>
-            {/* <button class="button button1" >GET QUOTE</button> */}
-            <a href="#contactUS">
-              <button className="button1"> GET QUOTE</button>
-            </a>
-          </div>
-          <img className="phone" src="images/Phone2.png" />
+          <a href="#contactUS"> Speak to our team</a>
         </div>
 
-        <section>
-          <div className="row"></div>
-          <h2 className="section-heading" id="ourService">
-            OUR <span>SERVICES</span>
-          </h2>
-          <div className="row">
-            <div className="column">
-              <div className="card">
-                <div className="icon-wrapper">
-                  <i className="fa-brands fa-facebook-f"></i>
+        <div class="we-offer-area text-center bg-gray div" id="ourService" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="site-heading text-center">
+                        <h2>What we <span>Offer</span></h2>
+                        <h4>Lorem Ipsum is simply dummy text</h4>
+                    </div>
                 </div>
-                <h3>BRANDING & WEBSITE</h3>
-                <p>
-                  We will work with you to create a cohesive brand identity that
-                  reflects your company's values and mission. This includes
-                  designing a logo, choosing typography and color schemes, and
-                  setting up your social media profiles. Additionally, we will
-                  create a website for your company and ensure that it's
-                  optimized for search engines.
-                </p>
-                <a href="#" className="btn btn-primary getQuote">
-                  <p>GET QUOTE</p>
-                </a>
-              </div>
             </div>
+                <div class="row our-offer-items less-carousel">
 
-            <div className="column">
-              <div className="card">
-                <div className="icon-wrapper">
-                  {/* <i className="fa-sharp fa-light fa-typewriter"></i> */}
-                  <i className="fa-solid fa-pen-fancy"></i>
-                </div>
-                <h3>Content Strategy</h3>
-                <p>
-                  Our team will develop a comprehensive content strategy that
-                  aligns with your brand and resonates with your target
-                  audience. This will include creating a content calendar,
-                  producing high-quality content, and optimizing it for search
-                  engines. We will also work on improving your website's SEO to
-                  increase your online visibility and drive traffic to your
-                  site.
-                </p>
-                <a href="#" className="btn btn-primary getQuote">
-                  <p>GET QUOTE</p>
-                </a>
-              </div>
-            </div>
-            <div className="column">
-              <div className="card">
-                <div className="icon-wrapper">
-                  <i className="fa-solid fa-camera"></i>
-                </div>
-                <h3>AD CAMPAIGNS</h3>
-                <p>
-                  We will create and manage effective ad campaigns on Facebook
-                  and Google that target your desired audience and drive traffic
-                  to your website. We will regularly monitor and optimize the
-                  campaigns to ensure maximum return on investment.
-                </p>
-                <a href="#" className="btn btn-primary getQuote">
-                  <p>GET QUOTE</p>
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+            
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <h4>BRANDING & WEBSITE</h4>
+                            <p>
+                            We will work with you to create a cohesive brand identity that reflects your company's values and mission. This includes designing a logo, choosing typography and color schemes, and setting up your social media profiles. Additionally, we will create a website for your company and ensure that it's optimized for search engines.
+                            </p>
+                        </div>
+                    </div>
+      
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <i class="fas fa-pen-fancy"></i>
+                            <h4>Content Strategy</h4>
+                            <p>
+                            Our team will develop a comprehensive content strategy that aligns with your brand and resonates with your target audience. This will include creating a content calendar, producing high-quality content, and optimizing it for search engines. We will also work on improving your website's SEO to increase your online visibility and drive traffic to your site.
+                            </p>
+                        </div>
+                    </div>
 
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <i class="fa-solid fa-camera"></i>
+                            <h4>AD CAMPAIGNS</h4>
+                            <p>
+                            We will create and manage effective ad campaigns on Facebook and Google that target your desired audience and drive traffic to your website. We will regularly monitor and optimize the campaigns to ensure maximum return on investment.
+                            </p>
+                        </div>
+                    </div>
+                
+                   
+                  
+                   
+            
+
+                </div>
+        </div>
+    </div>
+ 
+
+      </div>
         <section class="section-contact" id="contactUS">
           <div class="container">
             <h1>Contact the team!</h1>
@@ -265,10 +238,11 @@ function App() {
               </div>
             </form>
           </div>
-        </section>
-      </div>
 
-      <InlineWidget url="https://calendly.com/solarmktg/newjourney?back=1&month=2023-05" />
+          <InlineWidget url="https://calendly.com/solarmktg/newjourney?back=1&month=2023-05"  />
+        </section> 
+      
+
 
       <section class="footer" ref={footer}>
         <div class="social">
@@ -311,3 +285,8 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
