@@ -1000,70 +1000,78 @@ input[type="submit"]:hover {
   }
 
 
-  /* .section-heading span{
-    position: relative;
-    right: 100%;
-   
-  } */
-}
-@media screen and (min-width: 992px) {
-  section {
-    padding: 1em 3em;
-    position: relative;
-    top: 200px;
-  }
-  .column {
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
-  }
-
 }
 
-@media screen and (max-width: 640px) and (min-width: 375px) {
-  .phone {
-    display: none;
-  }
-
-  .footer.active {
-    display: none;
-  }
 
 
-  /* 
-  .section-heading{
-    position: relative;
-    left: 5px;
-  } */
 
-  .heroIMG {
-    display: none;
-  }
-
-}
 
 @media screen and (min-width: 375px) {
-  section {
-    padding: 1em 3em;
-
-    position: relative;
-    top: 200px;
-  }
 
 
-  .centered h1 {
+.UNKNOW{
+
+  font-size: 35px;
+
+
+}
+
+
+.UNFOR{
+
+  font-size: 35px;
+
+}
+
+  .heading h1{
+    font-size: 35px;
     position: absolute;
-    top: -83px;
-    /* left: 131px; */
+    left: 4%;
+    top: 35%;
   }
+
+  .heading p{
+    font-size: 13px;
+    position:absolute;
+    left: 4%;
+    top: 75%;
+  }
+
+  .heading img{
+    width: 25%;
+    height: auto;
+
+    position: absolute;
+    top: 17%;
+    left: -14px
+  }
+
+  .heading a {
+    position:absolute;
+    left: 4%;
+    top: 100%;
+  }
+
+  .heading h3{
+    font-size: 30px;
+    position: absolute;
+    left: 19%;
+    top: 18%;
+  }
+
+
+
+
+
 
   .section-contact {
     position: absolute;
-    top: 330%;
+    top: 530%;
   }
 
   .footer {
     position: absolute;
-    top: 520%;
+    top: 720%;
   }
 
 
