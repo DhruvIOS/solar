@@ -370,10 +370,10 @@ width: 120px;
 
 .heading h1{
   color: white;
-  font-size: 45px;
+  font-size: 60px;
   position:absolute;
   left: 4%;
-  top: 40%;
+  top: 25%;
   font-family: MadetommyBlack;
 
 }
@@ -412,7 +412,7 @@ width: 120px;
   font-size: 13px;
   position:absolute;
   left: 4%;
-  top: 60%;
+  top: 50%;
   font-family: MadetommyBlack;
   
 }
@@ -580,6 +580,8 @@ a {
   border-bottom: 1px solid #e2e8f0;
   position: relative;
   top: -15px;
+  padding-top: 50px;
+
 }
 
 .hamburger {
@@ -627,6 +629,9 @@ a {
   font-size: 2.1rem;
   font-weight: 500;
   color: #482ff7;
+  padding-bottom: 10px;
+
+
 }
 
 * {
@@ -759,6 +764,19 @@ a {
   background-color: #a83102;
 }
 /*# sourceMappingURL=main.css.map */
+
+
+.navbar p{
+  position: absolute;
+  left: 8%;
+  float: left;
+  color: rgb(235, 230, 230);
+  font-size: 2.5rem;
+  font-family: MadetommyBlack;
+  top: 20%;
+  /* color: #f14400; */
+}
+
 
 .socials .fa-brands {
   color: white;
@@ -1013,6 +1031,13 @@ input[type="submit"]:hover {
   font-size: 35px;
 
 
+}
+
+.navbar p {
+  font-size: 2rem;
+  position: absolute;
+  left: 28%;
+  top: 25%;
 }
 
 

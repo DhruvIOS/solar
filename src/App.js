@@ -61,13 +61,14 @@ function App() {
         <nav className="navbar">
           <a href="#" className="nav-logo">
             <img
-              src="images/Solar.png"
+              src="images/Solar2.png"
               width="100"
               height="60"
               className="d-inline-block align-top"
               alt=""
             />
           </a>
+          <p>SOLAR MARKETING</p>
           <ul className="nav-menu" ref={navMenuElement}>
             <li className="nav-item">
               <a href="#" className="nav-link" ref={navLinkElement}>
@@ -103,145 +104,159 @@ function App() {
       </header>
 
       <div className="mainContent" ref={mainContentElement}>
-
-
         <div className="heading">
-          <img src="images/Solar2.png" />
-          <h3>SOLAR MARKETING</h3>
-          <h1>Take your business from <span className="UNKNOW">Unknown</span> <br />to <span className="UNFOR">Unforgettable</span> in 3 simple steps</h1>
-          <p>At Solar Marketing, we help businesses succeed in the digital world <br /> with our proven 3-step process.  Our team of experts works closely with you <br />to create a tailored strategy that meets your unique needs and goals. </p>
+          {/* <img src="images/Solar2.png" />
+          <h3>SOLAR MARKETING</h3> */}
+          <h1>
+            Take your business from <span className="UNKNOW">Unknown</span>{" "}
+            <br />
+            to <span className="UNFOR">Unforgettable</span> in 3 simple steps
+          </h1>
+          <p>
+            At Solar Marketing, we help businesses succeed in the digital world{" "}
+            <br /> with our proven 3-step process. Our team of experts works
+            closely with you <br />
+            to create a tailored strategy that meets your unique needs and
+            goals.{" "}
+          </p>
 
           <a href="#contactUS"> Speak to our team</a>
         </div>
 
-        <div class="we-offer-area text-center bg-gray div" id="ourService" >
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="site-heading text-center">
-                        <h2>What we <span>Offer</span></h2>
-                        <h4>Lorem Ipsum is simply dummy text</h4>
-                    </div>
-                </div>
-            </div>
-                <div class="row our-offer-items less-carousel">
-
-                    <div class="col-md-4 col-sm-6 equal-height">
-                        <div class="item">
-            
-                            <i class="fa-brands fa-facebook-f"></i>
-                            <h4>BRANDING & WEBSITE</h4>
-                            <p>
-                            We will work with you to create a cohesive brand identity that reflects your company's values and mission. This includes designing a logo, choosing typography and color schemes, and setting up your social media profiles. Additionally, we will create a website for your company and ensure that it's optimized for search engines.
-                            </p>
-                        </div>
-                    </div>
-      
-                    <div class="col-md-4 col-sm-6 equal-height">
-                        <div class="item">
-                            <i class="fas fa-pen-fancy"></i>
-                            <h4>Content Strategy</h4>
-                            <p>
-                            Our team will develop a comprehensive content strategy that aligns with your brand and resonates with your target audience. This will include creating a content calendar, producing high-quality content, and optimizing it for search engines. We will also work on improving your website's SEO to increase your online visibility and drive traffic to your site.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 equal-height">
-                        <div class="item">
-                            <i class="fa-solid fa-camera"></i>
-                            <h4>AD CAMPAIGNS</h4>
-                            <p>
-                            We will create and manage effective ad campaigns on Facebook and Google that target your desired audience and drive traffic to your website. We will regularly monitor and optimize the campaigns to ensure maximum return on investment.
-                            </p>
-                        </div>
-                    </div>
-                
-                   
-                  
-                   
-            
-
-                </div>
-        </div>
-    </div>
- 
-
-      </div>
-        <section class="section-contact" id="contactUS">
+        <div class="we-offer-area text-center bg-gray div" id="ourService">
           <div class="container">
-            <h1>Contact the team!</h1>
-            <p>
-              Fill out the form below to get in touch with one of our team
-              members. We will try to get back to you within 48 hours. If we do
-              not reply within that time please feel free to use the form again.
-            </p>
-
-            <form ref={form} onSubmit={sendEmail}>
-              <div class="form-group">
-                <label for="firstname">First name*</label>
-                <input
-                  type="text"
-                  name="first_name"
-                  id="firstname"
-                  required
-                  class="form-element"
-                  placeholder="John"
-                />
+            <div class="row">
+              <div class="col-md-12">
+                <div class="site-heading text-center">
+                  <h2>
+                    What we <span>Offer</span>
+                  </h2>
+                  <h4>Lorem Ipsum is simply dummy text</h4>
+                </div>
               </div>
-              <div class="form-group">
-                <label for="lastname">Last name*</label>
-                <input
-                  type="text"
-                  name="last_name"
-                  id="lastname"
-                  required
-                  class="form-element"
-                  placeholder="Doe"
-                />
+            </div>
+            <div class="row our-offer-items less-carousel">
+              <div class="col-md-4 col-sm-6 equal-height">
+                <div class="item">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <h4>BRANDING & WEBSITE</h4>
+                  <p>
+                    We will work with you to create a cohesive brand identity
+                    that reflects your company's values and mission. This
+                    includes designing a logo, choosing typography and color
+                    schemes, and setting up your social media profiles.
+                    Additionally, we will create a website for your company and
+                    ensure that it's optimized for search engines.
+                  </p>
+                </div>
               </div>
 
-              <div class="form-group">
-                <label for="subject">Subject*</label>
-                <input
-                  type="text"
-                  name="subject"
-                  id="subject"
-                  required
-                  class="form-element"
-                  placeholder="Pricing"
-                />
+              <div class="col-md-4 col-sm-6 equal-height">
+                <div class="item">
+                  <i class="fas fa-pen-fancy"></i>
+                  <h4>Content Strategy</h4>
+                  <p>
+                    Our team will develop a comprehensive content strategy that
+                    aligns with your brand and resonates with your target
+                    audience. This will include creating a content calendar,
+                    producing high-quality content, and optimizing it for search
+                    engines. We will also work on improving your website's SEO
+                    to increase your online visibility and drive traffic to your
+                    site.
+                  </p>
+                </div>
               </div>
 
-              <div class="form-group">
-                <label for="email">Email address*</label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  required
-                  class="form-element"
-                  placeholder="john.doe@example.com"
-                />
+              <div class="col-md-4 col-sm-6 equal-height">
+                <div class="item">
+                  <i class="fa-solid fa-camera"></i>
+                  <h4>AD CAMPAIGNS</h4>
+                  <p>
+                    We will create and manage effective ad campaigns on Facebook
+                    and Google that target your desired audience and drive
+                    traffic to your website. We will regularly monitor and
+                    optimize the campaigns to ensure maximum return on
+                    investment.
+                  </p>
+                </div>
               </div>
-              <div class="form-group full">
-                <label for="message">What are you looking for?</label>
-                <textarea
-                  name="message"
-                  id="message"
-                  class="form-element"
-                  placeholder="I want a website please..."
-                ></textarea>
-              </div>
-              <div class="submit-group">
-                <input type="submit" value="SEND MESSAGE" />
-              </div>
-            </form>
+            </div>
           </div>
+        </div>
+      </div>
+      <section class="section-contact" id="contactUS">
+        <div class="container">
+          <h1>Contact the team!</h1>
+          <p>
+            Fill out the form below to get in touch with one of our team
+            members. We will try to get back to you within 48 hours. If we do
+            not reply within that time please feel free to use the form again.
+          </p>
 
-          <InlineWidget url="https://calendly.com/solarmktg/newjourney?back=1&month=2023-05"  />
-        </section> 
-      
+          <form ref={form} onSubmit={sendEmail}>
+            <div class="form-group">
+              <label for="firstname">First name*</label>
+              <input
+                type="text"
+                name="first_name"
+                id="firstname"
+                required
+                class="form-element"
+                placeholder="John"
+              />
+            </div>
+            <div class="form-group">
+              <label for="lastname">Last name*</label>
+              <input
+                type="text"
+                name="last_name"
+                id="lastname"
+                required
+                class="form-element"
+                placeholder="Doe"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject*</label>
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                required
+                class="form-element"
+                placeholder="Pricing"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email address*</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                class="form-element"
+                placeholder="john.doe@example.com"
+              />
+            </div>
+            <div class="form-group full">
+              <label for="message">What are you looking for?</label>
+              <textarea
+                name="message"
+                id="message"
+                class="form-element"
+                placeholder="I want a website please..."
+              ></textarea>
+            </div>
+            <div class="submit-group">
+              <input type="submit" value="SEND MESSAGE" />
+            </div>
+          </form>
+        </div>
+
+        <InlineWidget url="https://calendly.com/solarmktg/newjourney?back=1&month=2023-05" />
+      </section>
 
 
       <section class="footer" ref={footer}>
@@ -274,7 +289,6 @@ function App() {
         <p class="copyright">© Copyrighted Solar Marketing Agency </p>
       </section>
 
-
       <script
         type="text/javascript"
         src="https://assets.calendly.com/assets/external/widget.js"
@@ -285,8 +299,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
