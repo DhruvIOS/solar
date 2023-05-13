@@ -449,6 +449,33 @@ a {
   text-decoration: none;
 }
 
+#slider-range-min {
+  outline: 0;
+  background: slategrey;
+  height: 3.6em;
+  border: 0;
+  border-radius: 0;
+
+
+}
+.ui-slider-handle {
+  outline: 0;
+  top: 1.1em;
+  margin-left: -.6em;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 0;
+  background: white;
+  cursor: pointer;
+}
+
+.ui-slider-range {
+  background: #db4d57;
+  border-radius: 0;
+}
+
+
 
 
 
