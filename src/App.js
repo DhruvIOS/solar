@@ -255,7 +255,7 @@ function App() {
           </form>
         </div>
 
-        <InlineWidget url="https://calendly.com/solarmktg/newjourney?back=1&month=2023-05" />
+
       </section>
 
 
