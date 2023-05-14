@@ -184,6 +184,39 @@ function App() {
           </div>
         </div>
       </div>
+
+      <div class="container ourMethod">
+        <h1>OUR METHOD </h1>
+        <div class="row">
+          <div class="col-sm">
+            <h3>We Brand your product</h3>
+          </div>
+          <div class="col-sm">
+            <h3>We tell the world about it</h3>
+          </div>
+          <div class="col-sm">
+            <h3>We encourage them to buy it</h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">  <img src="images/package.png" /> <span>&#8594;</span> </div>
+          <div class="col-sm">  <img src="images/annoucement.png" /> <span>&#8594;</span> </div>
+          <div class="col-sm">  <img src="images/sales.png" /> </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <h2 className="sub">Branding</h2>
+          </div>
+          <div class="col-sm">
+            <h2 className="sub">Marketing</h2>
+          </div>
+          <div class="col-sm">
+            <h2 className="sub">Sales</h2>
+          </div>
+        </div>
+      </div>
       <section class="section-contact" id="contactUS">
         <div class="container">
           <h1>Contact the team!</h1>
@@ -254,10 +287,7 @@ function App() {
             </div>
           </form>
         </div>
-
-
       </section>
-
 
       <section class="footer" ref={footer}>
         <div class="social">
