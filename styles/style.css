@@ -26,8 +26,8 @@ html {
 
 body {
   background: rgb(9,9,121);
-  background: linear-gradient(0deg, rgba(9,9,121,1) 0%, rgba(0,0,0,1) 100%);
-
+  background: linear-gradient(0deg, rgba(9,9,121,1) 0%, rgba(0,0,0,1) 100%); 
+  background-color: #030222;
   overflow-x: hidden;
 }
 
@@ -703,6 +703,7 @@ a {
 
 
 }
+
 
 * {
   margin: 0;
