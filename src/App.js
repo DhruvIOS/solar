@@ -86,7 +86,7 @@ function App() {
               </a>
             </li>
             <li className="nav-item">
-              <a href="#contactUS" className="nav-link">
+              <a href="https://www.honeybook.com/widget/solar_marketing_255986/cf_id/646e152889bb93002ae42172" className="nav-link" target="_blank" >
                 CONTACT
               </a>
             </li>
@@ -120,7 +120,7 @@ function App() {
             goals.{" "}
           </p>
 
-          <a href="#contactUS"> Speak to our team</a>
+          <a href="https://www.honeybook.com/widget/solar_marketing_255986/cf_id/646e152889bb93002ae42172" target="_blank"> Speak to our team</a>
         </div>
 
         <div class="we-offer-area text-center bg-gray div" id="ourService">
@@ -200,9 +200,18 @@ function App() {
         </div>
 
         <div class="row">
-          <div class="col-sm">  <img src="images/package.png" /> <span>&#8594;</span> </div>
-          <div class="col-sm">  <img src="images/annoucement.png" /> <span>&#8594;</span> </div>
-          <div class="col-sm">  <img src="images/sales.png" /> </div>
+          <div class="col-sm">
+            {" "}
+            <img src="images/package.png" /> <span>&#8594;</span>{" "}
+          </div>
+          <div class="col-sm">
+            {" "}
+            <img src="images/annoucement.png" /> <span>&#8594;</span>{" "}
+          </div>
+          <div class="col-sm">
+            {" "}
+            <img src="images/sales.png" />{" "}
+          </div>
         </div>
 
         <div class="row">
@@ -217,7 +226,7 @@ function App() {
           </div>
         </div>
       </div>
-      <section class="section-contact" id="contactUS">
+      {/* <section class="section-contact" id="contactUS">
         <div class="container">
           <h1>Contact the team!</h1>
           <p>
@@ -287,7 +296,8 @@ function App() {
             </div>
           </form>
         </div>
-      </section>
+      </section> */}
+ 
 
       <section class="footer" ref={footer}>
         <div class="social">
@@ -313,10 +323,10 @@ function App() {
             <a href="#">About</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="https://www.honeybook.com/widget/solar_marketing_255986/cf_id/646e152889bb93002ae42172" target="_blank">Contact</a>
           </li>
         </ul>
-        <p class="copyright">© Copyrighted Solar Marketing Agency </p>
+        <p class="copyright">All rights resevered Solar Marketing  </p>
       </section>
 
       <script
