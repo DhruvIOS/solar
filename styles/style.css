@@ -40,6 +40,11 @@ body {
   
 }
 
+.methodDiv{
+  position: absolute;
+  top: 100%;
+}
+
 .ourMethod h3{
   font-family: MadetommyBlack;  
   font-size: 1.8rem;
@@ -264,7 +269,7 @@ transition: all 0.35s ease-in-out;
 }
 
 .we-offer-area .item::after {
-background: #f14400 none repeat scroll 0 0;
+background: #000080 none repeat scroll 0 0;
 content: "";
 height: 100%;
 left: -100%;
@@ -385,6 +390,11 @@ width: 120px;
   color: rgb(246, 242, 242);
 }
 
+.sizing{
+  position: relative;
+  top: 50%;
+}
+
 
 .heading img{
   width: 10%;
@@ -430,7 +440,7 @@ width: 120px;
 }
 
 .heading a:hover{
-  color: #8a2700;
+  color: #ff30af;
   text-decoration: none;
 }
 
@@ -1095,6 +1105,75 @@ input[type="submit"]:hover {
 
 
  @media (min-width: 375px) and (max-width: 675px) {
+
+
+  .ourMethod{
+    display: none;
+  }
+
+
+  .methodMobile{
+    position: relative;
+    top: 215px;
+    /* display: none; */
+  }
+
+
+
+
+  .col-sm span{
+    font-size: 90px;
+    color: white;
+    position: relative;
+    top: 150%;
+    left: 42%;
+  }
+
+
+
+  
+
+  .methodMobile h1{
+    color: white;
+    text-align: center;
+    font-family: MadetommyBlack;  
+    font-size: 4rem;
+    position: relative;
+    top: 100px;
+
+  }
+
+  .col-sm h3{
+    color: white;
+    font-family: MadetommyBlack;  
+    font-size: 1.8rem;
+    position: relative;
+    left: 22%;
+    top: 60%;
+
+    
+
+  }
+
+  .col-sm h2{
+    color: white;
+    font-family: MadetommyBlack;  
+    font-size: 1.8rem;
+    position: relative;
+    left: 40%;
+    top: 120%;
+
+
+  }
+
+
+
+  .col-sm img{
+    width: 40%;
+    position: relative;
+    left: 30%;
+    top: 100%;
+  }
 
 
 .UNKNOW{
