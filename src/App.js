@@ -123,13 +123,14 @@ function App() {
           <a href="https://www.honeybook.com/widget/solar_marketing_255986/cf_id/646e152889bb93002ae42172" target="_blank"> Speak to our team</a>
         </div>
 
+
         <div class="we-offer-area text-center bg-gray div" id="ourService">
           <div class="container">
             <div class="row">
               <div class="col-md-12">
                 <div class="site-heading text-center">
                   <h2>
-                    What we <span>Offer</span>
+                    OUR <span>SERVICES</span>
                   </h2>
                   <h4>Lorem Ipsum is simply dummy text</h4>
                 </div>
@@ -185,6 +186,23 @@ function App() {
         </div>
       </div>
 
+      <div className="methodMobile">
+        <h1>OUR METHOD</h1>
+
+        <div class="row">
+          <div class="col-sm">
+            <h3>We Brand your product</h3> 
+            <img src="images/package.png" /> 
+            <h2>Branding </h2>
+            <span>&#8595;</span>
+
+
+          </div>
+
+        </div>
+      </div>
+
+      
       <div class="container ourMethod">
         <h1>OUR METHOD </h1>
         <div class="row">
@@ -226,77 +244,7 @@ function App() {
           </div>
         </div>
       </div>
-      {/* <section class="section-contact" id="contactUS">
-        <div class="container">
-          <h1>Contact the team!</h1>
-          <p>
-            Fill out the form below to get in touch with one of our team
-            members. We will try to get back to you within 48 hours. If we do
-            not reply within that time please feel free to use the form again.
-          </p>
-
-          <form ref={form} onSubmit={sendEmail}>
-            <div class="form-group">
-              <label for="firstname">First name*</label>
-              <input
-                type="text"
-                name="first_name"
-                id="firstname"
-                required
-                class="form-element"
-                placeholder="John"
-              />
-            </div>
-            <div class="form-group">
-              <label for="lastname">Last name*</label>
-              <input
-                type="text"
-                name="last_name"
-                id="lastname"
-                required
-                class="form-element"
-                placeholder="Doe"
-              />
-            </div>
-
-            <div class="form-group">
-              <label for="subject">Subject*</label>
-              <input
-                type="text"
-                name="subject"
-                id="subject"
-                required
-                class="form-element"
-                placeholder="Pricing"
-              />
-            </div>
-
-            <div class="form-group">
-              <label for="email">Email address*</label>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                required
-                class="form-element"
-                placeholder="john.doe@example.com"
-              />
-            </div>
-            <div class="form-group full">
-              <label for="message">What are you looking for?</label>
-              <textarea
-                name="message"
-                id="message"
-                class="form-element"
-                placeholder="I want a website please..."
-              ></textarea>
-            </div>
-            <div class="submit-group">
-              <input type="submit" value="SEND MESSAGE" />
-            </div>
-          </form>
-        </div>
-      </section> */}
+{/*      
  
 
       <section class="footer" ref={footer}>
@@ -327,7 +275,7 @@ function App() {
           </li>
         </ul>
         <p class="copyright">All rights resevered Solar Marketing  </p>
-      </section>
+      </section> */}
 
       <script
         type="text/javascript"
