@@ -340,6 +340,10 @@ width: 120px;
   margin-top:auto;
   height: auto;
 }
+
+.methodMobile{
+  display: none;
+}
 .footer .social {
   text-align: center;
   padding-bottom: 25px;
