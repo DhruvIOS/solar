@@ -718,6 +718,10 @@ a {
 
 }
 
+.col-sm h1{
+  display: none;
+}
+
 
 * {
   margin: 0;
@@ -1110,9 +1114,44 @@ input[type="submit"]:hover {
 
  @media (min-width: 375px) and (max-width: 675px) {
 
+  .ourMethod2{
+    position:absolute;
+    top: 410%;
+  }
 
-  .ourMethod{
-    display: none;
+  .marketingTile{
+    position: relative;
+    top: 405px;
+    font-size: 6rem;
+    
+  }
+
+  .sub1{
+    position: relative;
+    top: -217px
+  }
+
+  .sub2{
+    position: relative;
+    top: -63px
+  }
+
+  .salesTitle{
+    position:relative;
+    top: 672px
+  }
+
+  .salesImg{
+    position: relative;
+    top: 200px
+  }
+
+
+
+
+  .marketingImg{
+    position: relative;
+    top: 200px
   }
 
 
@@ -1124,60 +1163,31 @@ input[type="submit"]:hover {
 
 
 
+  .ourMethod span{
+    display: none;
 
-  .col-sm span{
-    font-size: 90px;
-    color: white;
-    position: relative;
-    top: 150%;
-    left: 42%;
   }
+
+  .col-sm h1{
+    display: block;
+    font-size: 50px;
+    position: relative;
+    top: 20%
+  }
+
+  .marketing{
+    position: relative;
+    top: 100px;
+  }
+
+
+
 
 
 
   
 
-  .methodMobile h1{
-    color: white;
-    text-align: center;
-    font-family: MadetommyBlack;  
-    font-size: 4rem;
-    position: relative;
-    top: 100px;
 
-  }
-
-  .col-sm h3{
-    color: white;
-    font-family: MadetommyBlack;  
-    font-size: 1.8rem;
-    position: relative;
-    left: 22%;
-    top: 60%;
-
-    
-
-  }
-
-  .col-sm h2{
-    color: white;
-    font-family: MadetommyBlack;  
-    font-size: 1.8rem;
-    position: relative;
-    left: 40%;
-    top: 120%;
-
-
-  }
-
-
-
-  .col-sm img{
-    width: 40%;
-    position: relative;
-    left: 30%;
-    top: 100%;
-  }
 
 
 .UNKNOW{

@@ -86,7 +86,11 @@ function App() {
               </a>
             </li>
             <li className="nav-item">
-              <a href="https://www.honeybook.com/widget/solar_marketing_255986/cf_id/646e152889bb93002ae42172" className="nav-link" target="_blank" >
+              <a
+                href="https://www.honeybook.com/widget/solar_marketing_255986/cf_id/646e152889bb93002ae42172"
+                className="nav-link"
+                target="_blank"
+              >
                 CONTACT
               </a>
             </li>
@@ -120,9 +124,14 @@ function App() {
             goals.{" "}
           </p>
 
-          <a href="https://www.honeybook.com/widget/solar_marketing_255986/cf_id/646e152889bb93002ae42172" target="_blank"> Speak to our team</a>
+          <a
+            href="https://www.honeybook.com/widget/solar_marketing_255986/cf_id/646e152889bb93002ae42172"
+            target="_blank"
+          >
+            {" "}
+            Speak to our team
+          </a>
         </div>
-
 
         <div class="we-offer-area text-center bg-gray div" id="ourService">
           <div class="container">
@@ -191,19 +200,15 @@ function App() {
 
         <div class="row">
           <div class="col-sm">
-            <h3>We Brand your product</h3> 
-            <img src="images/package.png" /> 
+            <h3>We Brand your product</h3>
+            <img src="images/package.png" />
             <h2>Branding </h2>
             <span>&#8595;</span>
-
-
           </div>
-
         </div>
       </div>
 
-      
-      <div class="container ourMethod">
+      {/* <div class="container ourMethod">
         <h1>OUR METHOD </h1>
         <div class="row">
           <div class="col-sm">
@@ -243,11 +248,56 @@ function App() {
             <h2 className="sub">Sales</h2>
           </div>
         </div>
-      </div>
-{/*      
- 
+      </div> */}
 
-      <section class="footer" ref={footer}>
+      <div className="container ourMethod2 ourMethod">
+        <h1>OUR METHOD</h1>
+        <div class="row">
+          <div class="col-sm brandTitle">
+            <h3>We Brand your product</h3>
+          </div>
+          <div class="col-sm marketingTile">
+            <h3>We tell the world about it</h3>
+          </div>
+          <div class="col-sm salesTitle">
+            <h3>We encourage them to buy it</h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm brangIMG">
+            <img src="images/package.png" /> <span>&#8594;</span>
+          </div>
+          <div class="col-sm marketingImg">
+            <img src="images/annoucement.png" /> <span>&#8594;</span>
+          </div>
+          <div class="col-sm salesImg">
+            <img src="images/sales.png" /> 
+          </div>
+          
+        </div>
+
+        <div class="row">
+          <div class="col-sm sub1">
+            <h3>Branding</h3>
+            <h1> &#8595;</h1>
+          </div>
+
+          <div class="col-sm sub2">
+            <h3>Marketing</h3>
+            <h1> &#8595;</h1>
+          </div>
+
+          <div class="col-sm sub3">
+            <h3>Sales</h3>
+            <h1> &#8595;</h1>
+          </div>
+        </div>
+
+
+      </div>
+
+      {/* <section class="footer" ref={footer}>
         <div class="social">
           <a href="#">
             <i class="fab fa-instagram"></i>
@@ -271,10 +321,15 @@ function App() {
             <a href="#">About</a>
           </li>
           <li>
-            <a href="https://www.honeybook.com/widget/solar_marketing_255986/cf_id/646e152889bb93002ae42172" target="_blank">Contact</a>
+            <a
+              href="https://www.honeybook.com/widget/solar_marketing_255986/cf_id/646e152889bb93002ae42172"
+              target="_blank"
+            >
+              Contact
+            </a>
           </li>
         </ul>
-        <p class="copyright">All rights resevered Solar Marketing  </p>
+        <p class="copyright">All rights resevered Solar Marketing </p>
       </section> */}
 
       <script
