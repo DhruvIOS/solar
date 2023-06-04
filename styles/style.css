@@ -1116,12 +1116,12 @@ input[type="submit"]:hover {
 
   .ourMethod2{
     position:absolute;
-    top: 410%;
+    top: 460%;
   }
 
   .marketingTile{
     position: relative;
-    top: 405px;
+    top: 450px;
     font-size: 6rem;
     
   }
@@ -1133,17 +1133,22 @@ input[type="submit"]:hover {
 
   .sub2{
     position: relative;
-    top: -63px
+    top: 55px
   }
 
   .salesTitle{
     position:relative;
-    top: 672px
+    top: 810px
   }
 
   .salesImg{
     position: relative;
-    top: 200px
+    top: 621px
+  }
+
+  .sub3{
+    position: relative;
+    top: 370px
   }
 
 
@@ -1151,7 +1156,7 @@ input[type="submit"]:hover {
 
   .marketingImg{
     position: relative;
-    top: 200px
+    top: 281px
   }
 
 
@@ -1258,8 +1263,8 @@ input[type="submit"]:hover {
   }
 
   .footer {
-    position: absolute;
-    top: 550%;
+    position: relative;
+    top: 2000px;
   }
 
 
