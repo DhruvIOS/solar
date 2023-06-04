@@ -1179,7 +1179,7 @@ input[type="submit"]:hover {
 
 
   .heading p {
-    font-size: 13px;
+    font-size: 15px;
     position: absolute;
     left: 4%;
     top: 75%;
@@ -1214,7 +1214,7 @@ input[type="submit"]:hover {
 
   .footer {
     position: relative;
-    top: 2000px;
+    top: 2050px;
   }
 
   .centered h3 {
