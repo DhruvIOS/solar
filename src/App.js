@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import "./App.css";
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import { InlineWidget } from "react-calendly";
 
@@ -10,6 +10,8 @@ function App() {
   const navLinkElement = useRef(null);
   const mainContentElement = useRef(null);
   const footer = useRef(null);
+
+  const fade = useRef(null);
 
   function closeMenu() {
     // hamburger.classList.remove("active");
@@ -32,29 +34,31 @@ function App() {
     mainContentElement.current.classList.toggle("active");
     footer.current.classList.toggle("active");
   }
-  const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_ghco68k",
-        "template_rjdxr7f",
-        form.current,
-        "4lh34cFy-z-Pt2oO-"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          console.log("message sent");
-          e.target.reset();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+  useEffect(() => {
+    if (document.readyState == "complete") {
+
+    
+      fade.current.classList.toggle('visible')
+      fade.current.classList.remove('hidden')
+
+
+
+    
+    }else{
+      window.addEventListener("load", function() {
+
+      fade.current.classList.toggle('visible')
+      fade.current.classList.remove('hidden')
+
+
+  
+      }, false);
+    }
+  });
+  
+
   return (
     <div className="body">
       <header className="header">
@@ -111,7 +115,7 @@ function App() {
         <div className="heading">
           {/* <img src="images/Solar2.png" />
           <h3>SOLAR MARKETING</h3> */}
-          <h1>
+          <h1 class="hidden" ref={fade}>
             Take your business from <span className="UNKNOW">Unknown</span>{" "}
             <br />
             to <span className="UNFOR">Unforgettable</span> in 3 simple steps
