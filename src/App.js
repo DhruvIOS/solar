@@ -120,7 +120,7 @@ function App() {
             <br />
             to <span className="UNFOR">Unforgettable</span> in 3 simple steps
           </h1>
-          <p >
+          <p class="hidden" ref={fade} >
             At Solar Marketing, we help businesses succeed in the digital world{" "}
             <br /> with our proven 3-step process. Our team of experts works
             closely with you <br />
