@@ -57,7 +57,7 @@ function App() {
       setTimeout(() => {
         fade2.current.classList.toggle('visible')
         fade2.current.classList.remove('hidden')
-      }, 6000);
+      }, 5000);
 
 
 
@@ -76,7 +76,7 @@ function App() {
       setTimeout(() => {
         fade2.current.classList.toggle('visible')
         fade2.current.classList.remove('hidden')
-      }, 6000);
+      }, 5000);
 
   
       }, false);

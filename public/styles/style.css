@@ -445,7 +445,7 @@ body {
 
 .heading p {
   color: white;
-  font-size: 13px;
+  font-size: 15px;
   position: absolute;
   left: 4%;
   top: 50%;
@@ -454,7 +454,7 @@ body {
 
 .UNKNOW {
   color: #ffafe0;
-  font-size: 45px;
+  font-size: 60px;
   font-family: MadetommyBlack;
 }
 
