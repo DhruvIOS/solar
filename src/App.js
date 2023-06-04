@@ -47,8 +47,12 @@ function App() {
       fade.current.classList.toggle('visible')
       fade.current.classList.remove('hidden')
 
-      fade1.current.classList.toggle('visible')
-      fade1.current.classList.remove('hidden')
+      setTimeout(() => {
+        fade1.current.classList.toggle('visible')
+        fade1.current.classList.remove('hidden')
+      }, 2000);
+    
+
 
       fade2.current.classList.toggle('visible')
       fade2.current.classList.remove('hidden')
@@ -62,9 +66,12 @@ function App() {
       fade.current.classList.toggle('visible')
       fade.current.classList.remove('hidden')
 
-      fade1.current.classList.toggle('visible')
-      fade1.current.classList.remove('hidden')
 
+      setTimeout(() => {
+        fade1.current.classList.toggle('visible')
+        fade1.current.classList.remove('hidden')
+      }, 2000);
+    
       fade2.current.classList.toggle('visible')
       fade2.current.classList.remove('hidden')
 
