@@ -50,12 +50,14 @@ function App() {
       setTimeout(() => {
         fade1.current.classList.toggle('visible')
         fade1.current.classList.remove('hidden')
-      }, 2000);
+      }, 3000);
     
 
 
-      fade2.current.classList.toggle('visible')
-      fade2.current.classList.remove('hidden')
+      setTimeout(() => {
+        fade2.current.classList.toggle('visible')
+        fade2.current.classList.remove('hidden')
+      }, 3000);
 
 
 
@@ -70,10 +72,11 @@ function App() {
       setTimeout(() => {
         fade1.current.classList.toggle('visible')
         fade1.current.classList.remove('hidden')
-      }, 2000);
-    
-      fade2.current.classList.toggle('visible')
-      fade2.current.classList.remove('hidden')
+      }, 3000);
+      setTimeout(() => {
+        fade2.current.classList.toggle('visible')
+        fade2.current.classList.remove('hidden')
+      }, 3000);
 
   
       }, false);
