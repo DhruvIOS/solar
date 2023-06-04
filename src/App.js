@@ -12,6 +12,10 @@ function App() {
   const footer = useRef(null);
 
   const fade = useRef(null);
+  const fade1 = useRef(null);
+  const fade2 = useRef(null);
+
+
 
   function closeMenu() {
     // hamburger.classList.remove("active");
@@ -43,6 +47,12 @@ function App() {
       fade.current.classList.toggle('visible')
       fade.current.classList.remove('hidden')
 
+      fade1.current.classList.toggle('visible')
+      fade1.current.classList.remove('hidden')
+
+      fade2.current.classList.toggle('visible')
+      fade2.current.classList.remove('hidden')
+
 
 
     
@@ -52,6 +62,11 @@ function App() {
       fade.current.classList.toggle('visible')
       fade.current.classList.remove('hidden')
 
+      fade1.current.classList.toggle('visible')
+      fade1.current.classList.remove('hidden')
+
+      fade2.current.classList.toggle('visible')
+      fade2.current.classList.remove('hidden')
 
   
       }, false);
@@ -120,7 +135,7 @@ function App() {
             <br />
             to <span className="UNFOR">Unforgettable</span> in 3 simple steps
           </h1>
-          <p class="hidden" ref={fade} >
+          <p class="hidden" ref={fade1} >
             At Solar Marketing, we help businesses succeed in the digital world{" "}
             <br /> with our proven 3-step process. Our team of experts works
             closely with you <br />
@@ -129,6 +144,7 @@ function App() {
           </p>
 
           <a 
+            class="hidden" ref={fade2}
             href="https://www.honeybook.com/widget/solar_marketing_255986/cf_id/646e152889bb93002ae42172"
             target="_blank" 
           >
