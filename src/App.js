@@ -141,9 +141,9 @@ function App() {
           {/* <img src="images/Solar2.png" />
           <h3>SOLAR MARKETING</h3> */}
           <h1 class="hidden" ref={fade}>
-            Take your business from <span className="UNKNOW">Unknown</span>{" "}
+            Take your business from <span class="UNKNOW">Unknown</span>{" "}
             <br />
-            to <span className="UNFOR">Unforgettable</span> in 3 simple steps
+            to <span class="UNFOR">Unforgettable</span> in 3 simple steps
           </h1>
           <p class="hidden" ref={fade1} >
             At Solar Marketing, we help businesses succeed in the digital world{" "}
