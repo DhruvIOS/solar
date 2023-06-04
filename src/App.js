@@ -290,14 +290,14 @@ function App() {
 
           <div class="col-sm sub3">
             <h3>Sales</h3>
-            <h1> &#8595;</h1>
+
           </div>
         </div>
 
 
       </div>
 
-      {/* <section class="footer" ref={footer}>
+      <section class="footer" ref={footer}>
         <div class="social">
           <a href="#">
             <i class="fab fa-instagram"></i>
@@ -330,7 +330,7 @@ function App() {
           </li>
         </ul>
         <p class="copyright">All rights resevered Solar Marketing </p>
-      </section> */}
+      </section>
 
       <script
         type="text/javascript"
