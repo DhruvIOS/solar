@@ -329,7 +329,7 @@ function App() {
 
       <section class="footer" ref={footer}>
         <div class="social">
-          <a href="#">
+          <a href="google.com">
             <i class="fab fa-instagram"></i>
           </a>
 
