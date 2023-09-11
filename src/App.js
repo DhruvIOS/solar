@@ -329,14 +329,14 @@ function App() {
 
       <section class="footer" ref={footer}>
         <div class="social">
-          <a href="google.com">
+          <a href="https://instagram.com/solarmktg?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
             <i class="fab fa-instagram"></i>
           </a>
 
-          <a href="#">
+          <a href="https://x.com/solarmktg?s=21&t=CtB_yxebFiswOiYWBjgjzw" target="_blank">
             <i class="fab fa-twitter"></i>
           </a>
-          <a href="#">
+          <a href="https://www.facebook.com/profile.php?id=100089904856487&mibextid=LQQJ4d" target="_blank">
             <i class="fab fa-facebook-f"></i>
           </a>
         </div>
@@ -345,7 +345,7 @@ function App() {
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#">Our Service</a>
+            <a href="ourService">Our Service</a>
           </li>
           <li>
             <a href="#">About</a>
