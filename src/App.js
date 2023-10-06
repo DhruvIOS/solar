@@ -225,18 +225,7 @@ function App() {
         </div>
       </div>
 
-      <div className="methodMobile">
-        <h1>OUR METHOD</h1>
-
-        <div class="row">
-          <div class="col-sm">
-            <h3>We Brand your product</h3>
-            <img src="images/package.png" />
-            <h2>Branding </h2>
-            <span>&#8595;</span>
-          </div>
-        </div>
-      </div>
+   
 
       {/* <div class="container ourMethod">
         <h1>OUR METHOD </h1>

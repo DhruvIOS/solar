@@ -332,9 +332,7 @@ body {
   height: auto;
 }
 
-.methodMobile {
-  display: none;
-}
+
 .footer .social {
   text-align: center;
   padding-bottom: 25px;
@@ -660,6 +658,7 @@ a {
   position: relative;
   top: -15px;
   padding-top: 50px;
+  z-index: 1;
 }
 
 .hamburger {
@@ -907,9 +906,7 @@ a {
     color: #101010;
   }
 
-  .mainContent.active {
-    display: none;
-  }
+ 
   .nav-link {
     color: white;
   }
@@ -918,7 +915,7 @@ a {
     position: fixed;
     left: -100%;
     top: 7.5rem;
-    bottom: -3rem;
+
     flex-direction: column;
     background-color: #f14400;
     width: 100%;
@@ -1111,7 +1108,7 @@ input[type="submit"]:hover {
 
   .salesTitle {
     position: relative;
-    top: 810px;
+    top: 910px;
   }
 
   .salesImg {
