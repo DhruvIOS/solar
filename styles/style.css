@@ -24,6 +24,12 @@ html {
   box-sizing: border-box;
 }
 
+header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
 body {
   background: rgb(9, 9, 121);
   background: linear-gradient(
@@ -80,6 +86,7 @@ body {
 .bg-gray {
   background-color: none;
 }
+
 
 .calendly {
   position: relative;
@@ -332,9 +339,7 @@ body {
   height: auto;
 }
 
-.methodMobile {
-  display: none;
-}
+
 .footer .social {
   text-align: center;
   padding-bottom: 25px;
@@ -660,6 +665,7 @@ a {
   position: relative;
   top: -15px;
   padding-top: 50px;
+  z-index: 1;
 }
 
 .hamburger {
@@ -907,12 +913,12 @@ a {
     color: #101010;
   }
 
-  .mainContent.active {
-    display: none;
-  }
+ 
   .nav-link {
     color: white;
   }
+
+ 
 
   .nav-menu {
     position: fixed;
@@ -1111,7 +1117,7 @@ input[type="submit"]:hover {
 
   .salesTitle {
     position: relative;
-    top: 810px;
+    top: 910px;
   }
 
   .salesImg {
